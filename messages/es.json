@@ -1,0 +1,475 @@
+{
+  "Header": {
+    "brand": "Raquel Terrazas",
+    "nav": {
+      "work": "Trabajo",
+      "about": "Sobre mí",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    },
+    "aria": {
+      "toggleTheme": "Cambiar tema de color",
+      "language": "Idioma",
+      "skipToContent": "Saltar al contenido principal",
+      "toggleMenu": "Abrir o cerrar el menú de navegación"
+    }
+  },
+  "Hero": {
+    "techLabel": "SOFTWARE · AUTOMATIZACIÓN · PRODUCTO",
+    "headlineBefore": "Convierto procesos de negocio complejos",
+    "headlineAfter": "en software que simplifica",
+    "headlineEmphasis": "el trabajo.",
+    "body": "Diseño, automatizo y desarrollo aplicaciones web y herramientas internas para resolver problemas reales — desde entender la necesidad hasta construir la solución.",
+    "ctaPrimary": "Ver mi trabajo",
+    "ctaSecondary": "Hablemos",
+    "location": "Barcelona, España",
+    "links": {
+      "email": "Correo",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "annotationTitle": "DentalSys",
+    "annotationSubtitle": "Odontograma 3D + gestión de clínica",
+    "compositionLabel": "Collage de trabajo de software",
+    "compositionDescription": "Collage ilustrado de una interfaz de clínica DentalSys, un odontograma 3D y una nota de código.",
+    "placeholderChrome": {
+      "patients": "Pacientes",
+      "calendar": "Calendario",
+      "treatments": "Tratamientos",
+      "records": "Registros de clínica",
+      "search": "Buscar registros",
+      "toothView": "Vista de pieza"
+    }
+  },
+  "Work": {
+    "heading": "02 / PROYECTOS DESTACADOS",
+    "microcopy": "PROBLEMAS REALES. SOFTWARE REAL.",
+    "sectionLabel": "Proyectos destacados",
+    "caseStudyAction": "Ver caso de estudio →",
+    "experienceAction": "Ver experiencia técnica →",
+    "categories": {
+      "healthcare": "Salud",
+      "professional-services": "Servicios profesionales",
+      "automation": "Automatización"
+    }
+  },
+  "ImmigrationCrm": {
+    "meta": {
+      "title": "Caso de estudio CRM de Extranjería | Raquel Terrazas",
+      "description": "Caso de estudio de un CRM real que transforma procesos administrativos dispersos en un sistema de software conectado."
+    },
+    "backToWork": "Volver a proyectos destacados",
+    "hero": {
+      "eyebrow": "03 / CASO DE ESTUDIO",
+      "label": "CRM DE EXTRANJERÍA · PROYECTO REAL",
+      "headline1": "De herramientas dispersas",
+      "headline2": "a un espacio de trabajo",
+      "headline3": "centralizado.",
+      "body": "Un CRM diseñado alrededor del flujo de trabajo real de una gestoría de extranjería, conectando información de clientes, trámites, documentos, presupuestos y facturación.",
+      "annotation": "software real →",
+      "datasetNote": "Las capturas utilizan un conjunto de datos sintéticos y aislados.",
+      "dashboardAlt": "Panel de control del CRM de extranjería con clientes recientes y alertas de documentos, a partir de un conjunto de datos sintéticos."
+    },
+    "startingPoint": {
+      "eyebrow": "01 / EL PUNTO DE PARTIDA",
+      "headline": "El problema no era necesitar otra hoja de cálculo.",
+      "body": "Antes del sistema, la información y el seguimiento estaban repartidos entre:",
+      "sources": {
+        "excel": "Excel",
+        "files": "Carpetas físicas",
+        "whatsapp": "WhatsApp",
+        "email": "Correo",
+        "calendar": "Agenda",
+        "memory": "Memoria"
+      },
+      "resultInfo": "Información fragmentada",
+      "resultFollowUp": "Seguimiento fragmentado"
+    },
+    "discovery": {
+      "eyebrow": "02 / DESCUBRIMIENTO",
+      "headline": "Empecé por las personas que hacían el trabajo.",
+      "body": "Los requisitos se definieron a partir de conversaciones tanto con dirección como con trabajadores, identificando cómo se realizaba realmente el trabajo, dónde se fragmentaba la información y qué procesos necesitaban mayor soporte.",
+      "notes": {
+        "management": "hablar con dirección",
+        "staff": "hablar con el equipo",
+        "workflow": "mapear el flujo",
+        "friction": "identificar fricción",
+        "model": "modelar el sistema"
+      }
+    },
+    "modeling": {
+      "eyebrow": "03 / DEL PROCESO AL SOFTWARE",
+      "body": "En lugar de tratar cada función como una herramienta aislada, la aplicación conecta la información alrededor del cliente y sus trámites.",
+      "treeTitle": "Cliente",
+      "tree": {
+        "procedures": "Trámites",
+        "documents": "Documentos",
+        "quotations": "Presupuestos",
+        "invoices": "Facturas"
+      },
+      "profileAlt": "Perfil de cliente de demostración, con un trámite de renovación de residencia, documentos y acciones de presupuesto.",
+      "clientsAlt": "Listado de clientes del CRM de extranjería con datos sintéticos."
+    },
+    "product": {
+      "eyebrow": "04 / DECISIÓN DE PRODUCTO",
+      "headline": "Un presupuesto no debería terminar al pulsar «guardar».",
+      "steps": {
+        "quotation": "Presupuesto",
+        "client": "Cliente",
+        "template": "Plantilla de mensaje",
+        "handoff": "Entrega a WhatsApp",
+        "followUp": "Seguimiento"
+      },
+      "accuracy": "WhatsApp no está integrado mediante WhatsApp Business Cloud API. La aplicación prepara el mensaje y lo entrega a WhatsApp Desktop. No envía mensajes de forma automática.",
+      "demoNote": "Esta captura es del modo demo. No se envía ningún mensaje.",
+      "quoteAlt": "Pantalla de presupuestos con un modal de entrega a WhatsApp que prepara un mensaje para WhatsApp Desktop en modo demo."
+    },
+    "architecture": {
+      "eyebrow": "05 / BAJO EL CAPÓ",
+      "browser": "Navegador",
+      "stack": "React 19 + TypeScript",
+      "next": "Next.js 15",
+      "api": "REST /api/v1",
+      "services": "Servicios de aplicación",
+      "postgres": "PostgreSQL",
+      "prisma": "Prisma",
+      "r2": "Cloudflare R2",
+      "files": "Archivos privados"
+    },
+    "operations": {
+      "eyebrow": "06 / OPERACIONES CONECTADAS",
+      "headline1": "No son funciones aisladas.",
+      "headline2": "Es un flujo de trabajo conectado.",
+      "labels": {
+        "clients": "clientes",
+        "procedures": "trámites",
+        "quotes": "presupuestos",
+        "invoices": "facturas"
+      },
+      "clientsAlt": "Tabla de clientes del CRM de extranjería, con registros sintéticos de demostración.",
+      "invoicesAlt": "Listado de facturas del CRM de extranjería, con facturas y estados sintéticos."
+    },
+    "realWorld": {
+      "eyebrow": "07 / USO REAL",
+      "headline1": "Construido para un flujo de trabajo real,",
+      "headline2": "no como una demo de portfolio.",
+      "intro": "La aplicación se usa actualmente para:",
+      "uses": {
+        "one": "Crear presupuestos",
+        "two": "Preparar presupuestos para enviarlos al cliente mediante WhatsApp",
+        "three": "Gestionar facturas",
+        "four": "Mantener actualizada la información de clientes"
+      }
+    },
+    "next": {
+      "eyebrow": "08 / QUÉ MEJORARÍA DESPUÉS",
+      "items": {
+        "testingTitle": "Pruebas automatizadas",
+        "testingBody": "Construir una suite de pruebas automatizadas fiable alrededor de los flujos críticos.",
+        "frontendTitle": "Evolución de la arquitectura frontend",
+        "frontendBody": "Seguir modularizando responsabilidades a medida que crece la aplicación.",
+        "observabilityTitle": "Observabilidad",
+        "observabilityBody": "Mejorar el monitoreo de errores en producción y la visibilidad operativa.",
+        "a11yTitle": "Accesibilidad",
+        "a11yBody": "Hacer una revisión de accesibilidad dedicada de la interfaz operativa."
+      }
+    }
+  },
+  "About": {
+    "sectionLabel": "Sobre mí",
+    "eyebrow": "04 / SOBRE MÍ",
+    "headline1": "Me gusta entender cómo funcionan las cosas",
+    "headline2": "y encontrar una mejor forma de hacerlas funcionar.",
+    "body1": "Soy ingeniera de software en Barcelona, con experiencia en desarrollo full-stack, QA y automatización web.",
+    "body2": "Mi trabajo muchas veces empieza antes del código: entendiendo un proceso, identificando dónde se vuelve repetitivo o difícil y convirtiéndolo en una solución de software práctica.",
+    "compositionLabel": "Collage de proceso que muestra cómo el trabajo pasa de entender a mejorar.",
+    "processTitle": "proceso",
+    "processAddress": "espacio://entender-mapear-construir",
+    "notes": {
+      "understand": "entender",
+      "map": "mapear",
+      "build": "construir",
+      "test": "probar",
+      "improve": "mejorar"
+    },
+    "code": {
+      "comment": "// empezar por el proceso",
+      "line1": "const next = mapear(flujo)",
+      "line2": "  .construir()",
+      "line3": "  .probar()"
+    }
+  },
+  "Experience": {
+    "sectionLabel": "Experiencia",
+    "eyebrow": "05 / EXPERIENCIA",
+    "headline": "Construyendo software desde diferentes partes del proceso.",
+    "trilogy": {
+      "period": "Desde octubre de 2023",
+      "role": "Software Engineer — DAX",
+      "body1": "Desarrollo y aseguramiento de calidad de flujos de automatización web y extracción de datos.",
+      "body2": "Trabajé en implementación, depuración, QA, validación de despliegues y herramientas internas, incluyendo soporte de casos complejos y documentación técnica."
+    },
+    "consulting": {
+      "kind": "Experiencia de proyecto seleccionada",
+      "heading": "Software de negocio y digitalización de procesos",
+      "body": "Diseño y desarrollo de software interno alrededor de procesos operativos reales, incluyendo levantamiento de requisitos, modelado de procesos e implementación full-stack.",
+      "caseStudy": "Ver caso de estudio →"
+    },
+    "education": {
+      "eyebrow": "Formación",
+      "degree": "Ingeniería de Software",
+      "institution": "Universidad Privada Franz Tamayo"
+    },
+    "groups": {
+      "build": "CONSTRUIR",
+      "automate": "AUTOMATIZAR Y PROBAR",
+      "product": "PRODUCTO Y PROCESO"
+    }
+  },
+  "Contact": {
+    "sectionLabel": "Contacto",
+    "eyebrow": "06 / CONTACTO",
+    "headline": "¿Tienes un problema que el software podría simplificar?",
+    "body": "Estoy abierta a oportunidades de ingeniería de software y a conversar sobre productos digitales y herramientas internas que resuelvan problemas reales.",
+    "cta": "Hablemos",
+    "location": "Barcelona, España",
+    "annotation": "abierta a construir cosas útiles →"
+  },
+  "DentalSys": {
+    "meta": {
+      "title": "Caso de estudio DentalSys | Raquel Terrazas",
+      "description": "Caso técnico de una aplicación académica de gestión odontológica con flujos en Angular y un odontograma interactivo desarrollado con React y Three.js."
+    },
+    "backToWork": "Volver a proyectos destacados",
+    "hero": {
+      "eyebrow": "PROYECTO ACADÉMICO · SOFTWARE DENTAL",
+      "title": "DentalSys",
+      "headline": "Un flujo clínico con un odontograma 3D interactivo.",
+      "intro": "Un proyecto académico de gestión odontológica que combina pacientes, citas, tratamientos y documentos con un odontograma 3D interactivo desarrollado como una aplicación separada.",
+      "evidenceNote": "INTERFAZ REAL · DATOS SINTÉTICOS",
+      "odontogramAlt": "Odontograma 3D interactivo de DentalSys mostrando estados dentales sintéticos."
+    },
+    "system": {
+      "eyebrow": "01 / EL SISTEMA",
+      "headline": "Una aplicación Angular orientada a la clínica.",
+      "body": "La aplicación Angular es la interfaz que ve la clínica: pacientes, citas, historial, tratamientos y documentos conviven en una misma pantalla. Es un proyecto académico funcional, no un sistema clínico en producción.",
+      "patientsAlt": "Directorio de pacientes de DentalSys con un conjunto de datos sintéticos y acciones de historial y tratamientos.",
+      "modules": {
+        "patients": "Centro de pacientes",
+        "treatments": "Tratamientos",
+        "history": "Historia clínica",
+        "prescriptions": "Recetas",
+        "files": "Archivos y consentimientos",
+        "actions": "Acciones de flujo"
+      }
+    },
+    "appointments": {
+      "eyebrow": "02 / FLUJO DE CITAS",
+      "headline": "Agenda dentro del mismo flujo de paciente.",
+      "body": "Las citas se gestionan con FullCalendar y muestran estados distintos. El calendario permanece conectado al expediente del paciente en lugar de vivir como una herramienta aparte.",
+      "calendarAlt": "Calendario mensual de DentalSys con citas sintéticas y marcadores de estado."
+    },
+    "challenge": {
+      "eyebrow": "03 / EL RETO 3D",
+      "headline": "Angular para la clínica. El 3D, aparte.",
+      "body": "El problema distintivo era representar el estado dental de forma interactiva en 3D mientras la aplicación clínica principal seguía en Angular. El odontograma se aisló como una aplicación Next.js, React y Three.js. Angular lo incrusta mediante un iframe y le pasa el identificador relevante. El frontend 3D carga modelos dentales GLTF y se comunica con el mismo contrato REST.",
+      "interactionsLabel": "Interacciones soportadas",
+      "interactions": {
+        "orbit": "Órbita y zoom",
+        "dentition": "Dentición adulta e infantil",
+        "tooth": "Selección de diente",
+        "face": "Selección de cara del diente",
+        "state": "Visualización del estado dental",
+        "treatment": "Flujo de creación de tratamiento"
+      }
+    },
+    "architecture": {
+      "eyebrow": "Cómo se conectan las piezas",
+      "angular": "Aplicación clínica Angular",
+      "api": "API REST",
+      "storage": "Firebase Storage",
+      "storageDetail": "Archivos, no la base de datos",
+      "iframe": "iframe",
+      "odontogram": "Odontograma 3D React / Three.js",
+      "odontogramApi": "API REST"
+    },
+    "treatment": {
+      "eyebrow": "04 / DEL 3D AL TRATAMIENTO",
+      "headline": "De un diente seleccionado a una fila de tratamiento.",
+      "body": "Un recorrido típico es paciente, odontograma, estado del diente y tratamiento. La captura muestra tratamientos sintéticos y no afirma validación clínica.",
+      "steps": {
+        "patient": "Paciente",
+        "odontogram": "Odontograma",
+        "state": "Estado del diente",
+        "treatment": "Tratamiento"
+      },
+      "treatmentsAlt": "Diálogo de tratamientos de DentalSys con filas sintéticas sobre el listado de pacientes."
+    },
+    "engineering": {
+      "eyebrow": "05 / DETALLE DE INGENIERÍA",
+      "items": {
+        "angular": "SPA en Angular",
+        "api": "Cliente REST versionado",
+        "auth": "Login y refresh JWT en el cliente original",
+        "grid": "Tablas de pacientes y tratamientos con AG Grid",
+        "calendar": "Citas con FullCalendar",
+        "storage": "Firebase Storage con deduplicación SHA-256",
+        "docs": "Plantillas DOCX y exportación de informes",
+        "odontogram": "Odontograma React / Three.js aparte, con modelos GLTF"
+      }
+    },
+    "maturity": {
+      "eyebrow": "CONTEXTO",
+      "body": "Desarrollado como proyecto académico, DentalSys se convirtió en una oportunidad para explorar cómo distintos flujos clínicos y una interfaz 3D interactiva podían convivir dentro de un mismo sistema."
+    },
+    "reflection": {
+      "eyebrow": "06 / REFLEXIÓN",
+      "workedTitle": "Lo que funcionó",
+      "worked": {
+        "webgl": "Separar la complejidad de WebGL de la aplicación Angular",
+        "teeth": "Modelar la interacción a nivel de diente",
+        "workflows": "Conectar varios flujos clínicos en una misma aplicación"
+      },
+      "improveTitle": "Lo que mejoraría hoy",
+      "improve": {
+        "testing": "Pruebas automatizadas más sólidas",
+        "boundaries": "Fronteras de frontend más claras",
+        "authz": "Autorización a nivel de ruta",
+        "local": "Un entorno local más reproducible",
+        "responsive": "Mejores bases de interfaz adaptable"
+      }
+    }
+  },
+  "AutomationQa": {
+    "meta": {
+      "title": "Automatización & QA | Raquel Terrazas",
+      "description": "Experiencia técnica en automatización web, extracción de datos, validación y QA con JavaScript, Node.js, Puppeteer y APIs REST."
+    },
+    "backToWork": "Volver a proyectos destacados",
+    "hero": {
+      "eyebrow": "EXPERIENCIA PROFESIONAL · AUTOMATIZACIÓN Y QA",
+      "title": "Automatización & QA",
+      "headline": "Haciendo que la automatización web sea más confiable.",
+      "intro": "Trabajo de ingeniería y QA aplicado a automatización web, extracción y validación de datos, con foco en depurar fallos, verificar resultados y hacer más seguras las entregas.",
+      "context": "Trilogy Software · Software Engineer — DAX · desde octubre de 2023"
+    },
+    "flow": {
+      "browserLabel": "ilustración de portafolio",
+      "visualAlt": "Ilustración de portafolio de un flujo de automatización web: entrada, extracción, normalización, validación, QA y entrega.",
+      "snippet": "const result = await extract(source)\nvalidate(result)\nrelease(result)",
+      "heroSteps": {
+        "input": "Entrada web",
+        "extract": "Extraer",
+        "normalize": "Normalizar",
+        "validate": "Validar",
+        "qa": "QA",
+        "release": "Entrega"
+      }
+    },
+    "loop": {
+      "eyebrow": "01 / EL CICLO DE AUTOMATIZACIÓN",
+      "headline": "Una vista simplificada del ciclo de ingeniería.",
+      "frame": "No toda tarea siguió esta secuencia exacta. Es una forma compacta de describir el trabajo.",
+      "steps": {
+        "understand": "Entender la fuente",
+        "extract": "Extraer",
+        "normalize": "Normalizar",
+        "validate": "Validar",
+        "qa": "QA",
+        "release": "Entrega",
+        "investigate": "Investigar fallos",
+        "improve": "Mejorar"
+      }
+    },
+    "build": {
+      "eyebrow": "02 / CONSTRUIR",
+      "body": "El trabajo de automatización consiste en convertir interfaces web y APIs que cambian en flujos de extracción repetibles. La pila se mantiene deliberadamente pequeña: JavaScript, Node.js, Puppeteer y APIs REST.",
+      "stack": {
+        "js": "JavaScript",
+        "node": "Node.js",
+        "puppeteer": "Puppeteer",
+        "rest": "APIs REST"
+      }
+    },
+    "validate": {
+      "eyebrow": "03 / VALIDAR",
+      "headline": "Que un proceso termine no significa que el resultado sea correcto.",
+      "body": "El QA aquí no se limita a preguntar si un script acabó. La pregunta útil es si la salida tiene la forma correcta, está suficientemente completa y sigue siendo fiable después de un cambio.",
+      "layers": {
+        "executionTitle": "Ejecución",
+        "executionBody": "¿La automatización llegó a completar?",
+        "structureTitle": "Estructura",
+        "structureBody": "¿La salida tiene la forma correcta? Ejemplo: records es un array.",
+        "contentTitle": "Contenido",
+        "contentBody": "¿Los campos esperados están presentes y son plausibles? Ejemplo: price es un número.",
+        "regressionTitle": "Regresión",
+        "regressionBody": "¿Un cambio rompió un comportamiento que antes funcionaba?",
+        "releaseTitle": "Entrega",
+        "releaseBody": "¿El resultado está listo para la validación final y el despliegue?"
+      }
+    },
+    "debug": {
+      "eyebrow": "04 / DEPURAR",
+      "body": "Cuando una ejecución falla, el artefacto útil es un rastro corto y legible: qué se esperaba, qué llegó y qué comprobación se rompió. La tarjeta de la derecha es un ejemplo original y simplificado, no una salida del empleador.",
+      "label": "Rastro de depuración ilustrativo",
+      "runLabel": "Ejecución",
+      "runValue": "#042",
+      "statusLabel": "Estado",
+      "statusValue": "validation_failed",
+      "expectedLabel": "Esperado",
+      "expectedValue": "price: number",
+      "receivedLabel": "Recibido",
+      "receivedValue": "price: null",
+      "checkRequest": "✓ petición completada",
+      "checkPage": "✓ página cargada",
+      "checkField": "✕ campo obligatorio",
+      "nextStep": "→ revisar la regla de extracción"
+    },
+    "tooling": {
+      "eyebrow": "05 / HERRAMIENTAS INTERNAS",
+      "body": "La misma práctica incluyó herramientas y scripts pequeños que hacían más repetible el QA y la validación. Esos apoyos no se nombran aquí: eran internos, no un producto open source.",
+      "items": {
+        "scripts": "Scripts de apoyo a QA",
+        "tables": "Tablas de validación estructuradas",
+        "checks": "Comprobaciones repetibles",
+        "docs": "Notas sobre casos difíciles"
+      }
+    },
+    "lifecycle": {
+      "eyebrow": "06 / A LO LARGO DEL CICLO",
+      "body": "El trabajo se movió entre implementación y calidad, no solo en un script aislado.",
+      "items": {
+        "development": "Desarrollo",
+        "qa": "QA",
+        "deploy": "Validación de despliegue",
+        "finalQa": "QA final",
+        "docs": "Documentación",
+        "onboarding": "Onboarding e intercambio de conocimiento",
+        "cases": "Casos difíciles"
+      }
+    },
+    "principles": {
+      "eyebrow": "07 / PRINCIPIOS",
+      "failTitle": "Fallar de forma visible",
+      "failBody": "Un resultado incorrecto y silencioso suele ser peor que un fallo visible.",
+      "outputsTitle": "Validar resultados, no solo la ejecución",
+      "outputsBody": "Que una ejecución termine no garantiza que los datos sean correctos.",
+      "changeTitle": "Diseñar para el cambio",
+      "changeBody": "Las interfaces web evolucionan; la automatización necesita puntos de fallo claros.",
+      "debugTitle": "Hacer más barata la depuración",
+      "debugBody": "El contexto útil y las comprobaciones repetibles reducen el tiempo de investigación."
+    },
+    "reflection": {
+      "eyebrow": "08 / NOTA",
+      "body": "La automatización me enseñó que la confiabilidad no consiste solo en hacer que el software funcione, sino en conseguir que los fallos sean comprensibles y los resultados verificables."
+    }
+  },
+  "Footer": {
+    "location": "Barcelona, España",
+    "rights": "Todos los derechos reservados"
+  },
+  "Metadata": {
+    "title": "Raquel Terrazas | Ingeniera de Software",
+    "description": "Ingeniera de software en Barcelona especializada en aplicaciones full-stack, herramientas internas y automatización web para resolver problemas reales de negocio."
+  }
+}

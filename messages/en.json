@@ -1,0 +1,475 @@
+{
+  "Header": {
+    "brand": "Raquel Terrazas",
+    "nav": {
+      "work": "Work",
+      "about": "About",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "aria": {
+      "toggleTheme": "Toggle color theme",
+      "language": "Language",
+      "skipToContent": "Skip to main content",
+      "toggleMenu": "Toggle navigation menu"
+    }
+  },
+  "Hero": {
+    "techLabel": "SOFTWARE · AUTOMATION · PRODUCT",
+    "headlineBefore": "I turn messy business processes",
+    "headlineAfter": "into software that feels",
+    "headlineEmphasis": "simple.",
+    "body": "I design, automate and build web applications and internal tools around real business problems — from understanding the need to shipping the solution.",
+    "ctaPrimary": "Explore my work",
+    "ctaSecondary": "Let's talk",
+    "location": "Barcelona, Spain",
+    "links": {
+      "email": "Email",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "annotationTitle": "DentalSys",
+    "annotationSubtitle": "3D odontogram + clinic management",
+    "compositionLabel": "Software work collage",
+    "compositionDescription": "Illustrated collage of a DentalSys clinic interface, a 3D odontogram, and a small code note.",
+    "placeholderChrome": {
+      "patients": "Patients",
+      "calendar": "Calendar",
+      "treatments": "Treatments",
+      "records": "Clinic records",
+      "search": "Search records",
+      "toothView": "Tooth view"
+    }
+  },
+  "Work": {
+    "heading": "02 / FEATURED WORK",
+    "microcopy": "REAL PROBLEMS. REAL SOFTWARE.",
+    "sectionLabel": "Featured projects",
+    "caseStudyAction": "View case study →",
+    "experienceAction": "View technical experience →",
+    "categories": {
+      "healthcare": "Healthcare",
+      "professional-services": "Professional Services",
+      "automation": "Automation"
+    }
+  },
+  "ImmigrationCrm": {
+    "meta": {
+      "title": "Immigration CRM Case Study | Raquel Terrazas",
+      "description": "A real-world CRM case study showing how fragmented administrative workflows were modeled and turned into a connected software system."
+    },
+    "backToWork": "Back to featured work",
+    "hero": {
+      "eyebrow": "03 / CASE STUDY",
+      "label": "IMMIGRATION CRM · REAL-WORLD PROJECT",
+      "headline1": "From scattered tools",
+      "headline2": "to one operational",
+      "headline3": "workspace.",
+      "body": "A CRM designed around the real workflow of an immigration services business — connecting client information, procedures, documents, quotations and invoicing.",
+      "annotation": "real software →",
+      "datasetNote": "Screenshots use an isolated synthetic dataset.",
+      "dashboardAlt": "Immigration CRM dashboard showing a control panel, recent clients and document alerts from a synthetic demo dataset."
+    },
+    "startingPoint": {
+      "eyebrow": "01 / THE STARTING POINT",
+      "headline": "The problem wasn't another spreadsheet.",
+      "body": "Before the system, information and follow-up were distributed across:",
+      "sources": {
+        "excel": "Excel",
+        "files": "Physical files",
+        "whatsapp": "WhatsApp",
+        "email": "Email",
+        "calendar": "Calendar",
+        "memory": "Memory"
+      },
+      "resultInfo": "Fragmented information",
+      "resultFollowUp": "Fragmented follow-up"
+    },
+    "discovery": {
+      "eyebrow": "02 / DISCOVERY",
+      "headline": "I started with the people doing the work.",
+      "body": "The requirements were shaped through conversations with both management and staff, helping identify how work was actually performed, where information became fragmented and which workflows needed better support.",
+      "notes": {
+        "management": "talk to management",
+        "staff": "talk to staff",
+        "workflow": "map the workflow",
+        "friction": "identify friction",
+        "model": "model the system"
+      }
+    },
+    "modeling": {
+      "eyebrow": "03 / FROM WORKFLOW TO SOFTWARE",
+      "body": "Instead of treating each feature as an isolated tool, the application connects information around the client and their procedures.",
+      "treeTitle": "Client",
+      "tree": {
+        "procedures": "Procedures",
+        "documents": "Documents",
+        "quotations": "Quotations",
+        "invoices": "Invoices"
+      },
+      "profileAlt": "Client profile for a synthetic demo record, with a residence-renewal procedure, documents and quotation actions.",
+      "clientsAlt": "Clients list from the Immigration CRM demo dataset."
+    },
+    "product": {
+      "eyebrow": "04 / PRODUCT DECISION",
+      "headline": "A quote shouldn't end when you click “save”.",
+      "steps": {
+        "quotation": "Quotation",
+        "client": "Client",
+        "template": "Message template",
+        "handoff": "WhatsApp hand-off",
+        "followUp": "Follow-up"
+      },
+      "accuracy": "WhatsApp is not integrated through WhatsApp Business Cloud API. The application prepares the message and hands it off to WhatsApp Desktop. It does not send messages automatically.",
+      "demoNote": "This screenshot is from demo mode. No message is actually sent.",
+      "quoteAlt": "Quotation screen with a WhatsApp hand-off modal that prepares a message for WhatsApp Desktop in demo mode."
+    },
+    "architecture": {
+      "eyebrow": "05 / UNDER THE HOOD",
+      "browser": "Browser",
+      "stack": "React 19 + TypeScript",
+      "next": "Next.js 15",
+      "api": "REST /api/v1",
+      "services": "Application services",
+      "postgres": "PostgreSQL",
+      "prisma": "Prisma",
+      "r2": "Cloudflare R2",
+      "files": "Private files"
+    },
+    "operations": {
+      "eyebrow": "06 / CONNECTED OPERATIONS",
+      "headline1": "Not isolated features.",
+      "headline2": "A connected workflow.",
+      "labels": {
+        "clients": "clients",
+        "procedures": "procedures",
+        "quotes": "quotes",
+        "invoices": "invoices"
+      },
+      "clientsAlt": "Clients table from the Immigration CRM, showing synthetic demo records.",
+      "invoicesAlt": "Invoices list from the Immigration CRM, showing synthetic demo invoices and statuses."
+    },
+    "realWorld": {
+      "eyebrow": "07 / REAL-WORLD USE",
+      "headline1": "Built for an actual workflow,",
+      "headline2": "not for a portfolio demo.",
+      "intro": "The application is currently used for:",
+      "uses": {
+        "one": "Creating quotations",
+        "two": "Preparing quotations for client delivery through WhatsApp",
+        "three": "Managing invoices",
+        "four": "Maintaining updated client information"
+      }
+    },
+    "next": {
+      "eyebrow": "08 / WHAT I'D IMPROVE NEXT",
+      "items": {
+        "testingTitle": "Automated testing",
+        "testingBody": "Build a reliable automated test suite around critical workflows.",
+        "frontendTitle": "Frontend architecture evolution",
+        "frontendBody": "Continue modularizing responsibilities as the application grows.",
+        "observabilityTitle": "Observability",
+        "observabilityBody": "Improve production error monitoring and operational visibility.",
+        "a11yTitle": "Accessibility",
+        "a11yBody": "Perform a dedicated accessibility review of the operational UI."
+      }
+    }
+  },
+  "About": {
+    "sectionLabel": "About",
+    "eyebrow": "04 / ABOUT",
+    "headline1": "I like understanding how things work —",
+    "headline2": "and finding a better way to make them work.",
+    "body1": "I'm a software engineer based in Barcelona, with experience across full-stack development, QA and web automation.",
+    "body2": "My work often starts before the code: understanding a process, identifying where it becomes repetitive or difficult, and turning that into a practical software solution.",
+    "compositionLabel": "Process scrapbook showing how work moves from understanding to improvement.",
+    "processTitle": "process",
+    "processAddress": "workspace://understand-map-build",
+    "notes": {
+      "understand": "understand",
+      "map": "map",
+      "build": "build",
+      "test": "test",
+      "improve": "improve"
+    },
+    "code": {
+      "comment": "// start with the process",
+      "line1": "const next = map(workflow)",
+      "line2": "  .build()",
+      "line3": "  .test()"
+    }
+  },
+  "Experience": {
+    "sectionLabel": "Experience",
+    "eyebrow": "05 / EXPERIENCE",
+    "headline": "Building software from different sides of the process.",
+    "trilogy": {
+      "period": "Since October 2023",
+      "role": "Software Engineer — DAX",
+      "body1": "Development and quality assurance of web automation and data extraction workflows.",
+      "body2": "Worked across implementation, debugging, QA, deployment validation and internal tooling, including support for complex cases and technical documentation."
+    },
+    "consulting": {
+      "kind": "Selected project experience",
+      "heading": "Business software & process digitization",
+      "body": "Design and development of internal software around real operational workflows, including requirements discovery, process modeling and full-stack implementation.",
+      "caseStudy": "View case study →"
+    },
+    "education": {
+      "eyebrow": "Education",
+      "degree": "Software Engineering",
+      "institution": "Universidad Privada Franz Tamayo"
+    },
+    "groups": {
+      "build": "BUILD",
+      "automate": "AUTOMATE & TEST",
+      "product": "PRODUCT & PROCESS"
+    }
+  },
+  "Contact": {
+    "sectionLabel": "Contact",
+    "eyebrow": "06 / CONTACT",
+    "headline": "Have a problem that software could make simpler?",
+    "body": "I'm open to software engineering opportunities and conversations about useful digital products and internal tools.",
+    "cta": "Let's talk",
+    "location": "Barcelona, Spain",
+    "annotation": "open to building useful things →"
+  },
+  "DentalSys": {
+    "meta": {
+      "title": "DentalSys Case Study | Raquel Terrazas",
+      "description": "Technical case study of an academic dental-management application with Angular workflows and an interactive React and Three.js odontogram."
+    },
+    "backToWork": "Back to featured work",
+    "hero": {
+      "eyebrow": "ACADEMIC PROJECT · DENTAL SOFTWARE",
+      "title": "DentalSys",
+      "headline": "A clinic workflow with an interactive 3D odontogram.",
+      "intro": "An academic dental-management project combining patient workflows, appointments, treatments and document handling with a separate interactive 3D odontogram.",
+      "evidenceNote": "REAL INTERFACE · SYNTHETIC DATA",
+      "odontogramAlt": "DentalSys interactive 3D odontogram showing synthetic dental states."
+    },
+    "system": {
+      "eyebrow": "01 / THE SYSTEM",
+      "headline": "A clinic-facing Angular shell.",
+      "body": "The Angular application is the clinic-facing shell: patients, appointments, history, treatments and documents live in one interface. This was a functional academic build, not a production clinic system.",
+      "patientsAlt": "DentalSys patient directory from a synthetic demo dataset, with workflow actions for history and treatments.",
+      "modules": {
+        "patients": "Patient hub",
+        "treatments": "Treatments",
+        "history": "Clinical history",
+        "prescriptions": "Prescriptions",
+        "files": "Files and consents",
+        "actions": "Workflow actions"
+      }
+    },
+    "appointments": {
+      "eyebrow": "02 / APPOINTMENT WORKFLOW",
+      "headline": "Scheduling inside the same patient workflow.",
+      "body": "Appointments are managed with FullCalendar and show distinct states. The calendar stays connected to the broader patient record instead of living as a separate tool.",
+      "calendarAlt": "DentalSys month calendar showing synthetic appointments and status markers."
+    },
+    "challenge": {
+      "eyebrow": "03 / THE 3D CHALLENGE",
+      "headline": "Keep Angular for the clinic. Isolate the 3D frontend.",
+      "body": "The distinctive problem was representing dental state interactively in 3D while the main clinic application stayed Angular. The odontogram was isolated as a separate Next.js, React and Three.js application. Angular embeds it through an iframe and passes the relevant identifier. The 3D frontend loads GLTF dental models and communicates through the same REST API contract.",
+      "interactionsLabel": "Supported interactions",
+      "interactions": {
+        "orbit": "Orbit and zoom",
+        "dentition": "Adult and child dentition",
+        "tooth": "Tooth selection",
+        "face": "Tooth-face selection",
+        "state": "Dental state visualization",
+        "treatment": "Treatment creation workflow"
+      }
+    },
+    "architecture": {
+      "eyebrow": "How the pieces connect",
+      "angular": "Angular clinic application",
+      "api": "REST API",
+      "storage": "Firebase Storage",
+      "storageDetail": "Files, not the database",
+      "iframe": "iframe",
+      "odontogram": "React / Three.js 3D odontogram",
+      "odontogramApi": "REST API"
+    },
+    "treatment": {
+      "eyebrow": "04 / 3D TO TREATMENT",
+      "headline": "From a selected tooth to a treatment row.",
+      "body": "A typical path is patient, odontogram, tooth state, then treatment. The screenshot shows synthetic treatments and is not a claim of clinical validation.",
+      "steps": {
+        "patient": "Patient",
+        "odontogram": "Odontogram",
+        "state": "Tooth state",
+        "treatment": "Treatment"
+      },
+      "treatmentsAlt": "DentalSys treatments dialog showing synthetic treatment rows over the patient list."
+    },
+    "engineering": {
+      "eyebrow": "05 / ENGINEERING DETAILS",
+      "items": {
+        "angular": "Angular SPA",
+        "api": "Versioned REST API client",
+        "auth": "JWT login and refresh in the committed client",
+        "grid": "AG Grid patient and treatment tables",
+        "calendar": "FullCalendar appointments",
+        "storage": "Firebase Storage with SHA-256 upload deduplication",
+        "docs": "DOCX templates and report export",
+        "odontogram": "Separate React / Three.js odontogram with GLTF models"
+      }
+    },
+    "maturity": {
+      "eyebrow": "CONTEXT",
+      "body": "Built as an academic project, DentalSys became an opportunity to explore how several clinical workflows and an interactive 3D interface could coexist in one system."
+    },
+    "reflection": {
+      "eyebrow": "06 / REFLECTION",
+      "workedTitle": "What worked",
+      "worked": {
+        "webgl": "Separating WebGL complexity from the Angular application",
+        "teeth": "Modeling tooth-level interaction",
+        "workflows": "Connecting multiple clinic workflows in one shell"
+      },
+      "improveTitle": "What I would improve today",
+      "improve": {
+        "testing": "Stronger automated testing",
+        "boundaries": "Clearer frontend boundaries",
+        "authz": "Route-level authorization",
+        "local": "Reproducible local development",
+        "responsive": "Better responsive UI foundations"
+      }
+    }
+  },
+  "AutomationQa": {
+    "meta": {
+      "title": "Automation & QA | Raquel Terrazas",
+      "description": "Technical experience in web automation, data extraction, validation and QA using JavaScript, Node.js, Puppeteer and REST APIs."
+    },
+    "backToWork": "Back to featured work",
+    "hero": {
+      "eyebrow": "PROFESSIONAL EXPERIENCE · AUTOMATION & QA",
+      "title": "Automation & QA",
+      "headline": "Making web automation easier to trust.",
+      "intro": "Engineering and QA work around web automation, data extraction and validation — with an emphasis on debugging failures, checking outputs and making releases safer.",
+      "context": "Trilogy Software · Software Engineer — DAX · since October 2023"
+    },
+    "flow": {
+      "browserLabel": "portfolio illustration",
+      "visualAlt": "Portfolio illustration of a web automation workflow: input, extract, normalize, validate, QA and release.",
+      "snippet": "const result = await extract(source)\nvalidate(result)\nrelease(result)",
+      "heroSteps": {
+        "input": "Web input",
+        "extract": "Extract",
+        "normalize": "Normalize",
+        "validate": "Validate",
+        "qa": "QA",
+        "release": "Release"
+      }
+    },
+    "loop": {
+      "eyebrow": "01 / THE AUTOMATION LOOP",
+      "headline": "A simplified view of the engineering loop.",
+      "frame": "Not every task followed this exact sequence. It is a compact way to describe the work.",
+      "steps": {
+        "understand": "Understand the source",
+        "extract": "Extract",
+        "normalize": "Normalize",
+        "validate": "Validate",
+        "qa": "QA",
+        "release": "Release",
+        "investigate": "Investigate failures",
+        "improve": "Improve"
+      }
+    },
+    "build": {
+      "eyebrow": "02 / BUILD",
+      "body": "Automation work involves turning changing web interfaces and APIs into repeatable extraction workflows. The stack stays intentionally small: JavaScript, Node.js, Puppeteer and REST APIs.",
+      "stack": {
+        "js": "JavaScript",
+        "node": "Node.js",
+        "puppeteer": "Puppeteer",
+        "rest": "REST APIs"
+      }
+    },
+    "validate": {
+      "eyebrow": "03 / VALIDATE",
+      "headline": "A successful run is not the same as a correct result.",
+      "body": "QA here is more than asking whether a script finished. The useful question is whether the output is shaped correctly, complete enough, and still trustworthy after a change.",
+      "layers": {
+        "executionTitle": "Execution",
+        "executionBody": "Did the automation complete?",
+        "structureTitle": "Structure",
+        "structureBody": "Is the output shaped correctly? Example: records is an array.",
+        "contentTitle": "Content",
+        "contentBody": "Are expected fields present and plausible? Example: price is a number.",
+        "regressionTitle": "Regression",
+        "regressionBody": "Did a change break previously working behavior?",
+        "releaseTitle": "Release",
+        "releaseBody": "Is the result ready for final validation and deployment?"
+      }
+    },
+    "debug": {
+      "eyebrow": "04 / DEBUG",
+      "body": "When a run fails, the useful artifact is a short, readable trace: what was expected, what arrived, and which check broke. The card on the right is an original, simplified example — not employer output.",
+      "label": "Illustrative debug trace",
+      "runLabel": "Run",
+      "runValue": "#042",
+      "statusLabel": "Status",
+      "statusValue": "validation_failed",
+      "expectedLabel": "Expected",
+      "expectedValue": "price: number",
+      "receivedLabel": "Received",
+      "receivedValue": "price: null",
+      "checkRequest": "✓ request completed",
+      "checkPage": "✓ page loaded",
+      "checkField": "✕ required field",
+      "nextStep": "→ inspect extraction rule"
+    },
+    "tooling": {
+      "eyebrow": "05 / INTERNAL TOOLING",
+      "body": "The same practice included small tools and scripts that made QA and repetitive validation easier to repeat. Those helpers stay unnamed here; they were internal, not an open-source product.",
+      "items": {
+        "scripts": "QA helper scripts",
+        "tables": "Structured validation tables",
+        "checks": "Repeatable checks",
+        "docs": "Notes on difficult cases"
+      }
+    },
+    "lifecycle": {
+      "eyebrow": "06 / ACROSS THE LIFECYCLE",
+      "body": "The work moved across implementation and quality, not only one isolated script.",
+      "items": {
+        "development": "Development",
+        "qa": "QA",
+        "deploy": "Deployment validation",
+        "finalQa": "Final QA",
+        "docs": "Documentation",
+        "onboarding": "Onboarding and knowledge sharing",
+        "cases": "Difficult cases"
+      }
+    },
+    "principles": {
+      "eyebrow": "07 / PRINCIPLES",
+      "failTitle": "Fail visibly",
+      "failBody": "A silent wrong result is often worse than a visible failure.",
+      "outputsTitle": "Validate outputs, not only execution",
+      "outputsBody": "A successful run does not guarantee correct data.",
+      "changeTitle": "Design for change",
+      "changeBody": "Web interfaces evolve; automation needs clear failure points.",
+      "debugTitle": "Make debugging cheaper",
+      "debugBody": "Useful context and repeatable checks reduce investigation time."
+    },
+    "reflection": {
+      "eyebrow": "08 / NOTE",
+      "body": "Automation taught me that reliability is not just making software run; it is making failures understandable and results verifiable."
+    }
+  },
+  "Footer": {
+    "location": "Barcelona, Spain",
+    "rights": "All rights reserved"
+  },
+  "Metadata": {
+    "title": "Raquel Terrazas | Software Engineer",
+    "description": "Software engineer in Barcelona building full-stack applications, internal tools and web automation around real business problems."
+  }
+}
