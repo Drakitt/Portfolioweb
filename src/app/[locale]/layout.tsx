@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import { PersonJsonLd } from '@/components/seo/PersonJsonLd';
 import { themeInitScript } from '@/components/providers/ThemeProvider';
 import { isAppLocale, routing } from '@/i18n/routing';
+import { siteIcons } from '@/lib/site-icons';
 import { joinSiteUrl } from '@/lib/site-url';
 
 const newsreader = Newsreader({
@@ -53,6 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: t('title'),
     description: t('description'),
+    icons: siteIcons(),
     ...(metadataBaseUrl ? { metadataBase: new URL(metadataBaseUrl) } : {}),
   };
 }
