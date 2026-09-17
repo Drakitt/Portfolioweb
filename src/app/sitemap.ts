@@ -5,7 +5,9 @@ import {
   homePathnames,
   immigrationCrmPathnames,
 } from '@/lib/page-metadata';
-import { getSiteUrl } from '@/lib/site-url';
+import { joinSiteUrl } from '@/lib/site-url';
+
+export const dynamic = 'force-static';
 
 const publicPaths = [
   homePathnames.en,
@@ -19,12 +21,9 @@ const publicPaths = [
 ] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = getSiteUrl();
-  if (!siteUrl) {
-    return [];
-  }
+  const urls = publicPaths
+    .map((path) => joinSiteUrl(path))
+    .filter((url): url is string => Boolean(url));
 
-  return publicPaths.map((path) => ({
-    url: new URL(path, siteUrl).toString(),
-  }));
+  return urls.map((url) => ({ url }));
 }

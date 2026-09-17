@@ -47,7 +47,7 @@ English and Spanish are first-class locales. The default locale is English. Rout
 - `/en` — English
 - `/es` — Spanish
 
-Case studies follow the same pattern. Translation dictionaries live in `messages/` (`en.json`, `es.json`). Locale routing is configured in `src/i18n/` and applied through Next.js middleware.
+Case studies follow the same pattern. Translation dictionaries live in `messages/` (`en.json`, `es.json`). Locale routing is configured in `src/i18n/` with explicit `/en` and `/es` prefixes.
 
 ## Project structure
 
@@ -115,15 +115,13 @@ This repository is the portfolio presentation. It does not include proprietary s
 
 ## Deployment
 
-The project is a standard Next.js App Router app and is structured for deployment on Vercel.
+The site is a static Next.js export hosted on GitHub Pages as a project site:
 
-After the first real deployment, configure the public origin in the host environment:
+https://drakitt.github.io/portfolio
 
-```bash
-NEXT_PUBLIC_SITE_URL=https://<public-host>
-```
+Pushes to `main` run `.github/workflows/deploy-pages.yml`, which lints, typechecks, compares translation keys, builds the `out/` directory, and deploys it with GitHub Pages Actions. The same workflow can be started manually with `workflow_dispatch`.
 
-Replace `<public-host>` with the live host. Canonical URLs, the sitemap, Open Graph URLs, and Person JSON-LD then use that origin.
+Production builds set `NEXT_PUBLIC_SITE_URL` to that GitHub Pages origin so canonical URLs, the sitemap, Open Graph tags, and Person JSON-LD resolve there. Local `next dev` does not require the variable.
 
 ## Contact
 

@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
+import { withBasePath } from '@/lib/hosting';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { ThemeSwitcher } from './ThemeSwitcher';
 import { Menu, X } from 'lucide-react';
@@ -33,7 +34,7 @@ export function Header() {
 
   const navLinks = sectionHashes.map((hash) => ({
     hash,
-    href: `/${locale}#${hash}`,
+    href: withBasePath(`/${locale}/#${hash}`),
     label: t(`nav.${hash}`),
   }));
 

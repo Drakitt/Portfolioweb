@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { Tape } from '@/components/scrapbook/Tape';
+import { withBasePath } from '@/lib/hosting';
 
 type TapeTone = 'sage' | 'butter' | 'pink';
 
@@ -28,7 +29,7 @@ export function EvidenceFrame({
       <Tape tone={tapeTone} className="left-[18%] top-[-0.4rem] w-14 -rotate-2" />
       <div className="paper-surface overflow-hidden rounded-[3px] border border-border">
         <Image
-          src={src}
+          src={withBasePath(src)}
           alt={alt}
           width={1600}
           height={900}

@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { AutomationDebugTrace } from './AutomationDebugTrace';
 import { AutomationWorkflowVisual } from './AutomationWorkflowVisual';
+import { withBasePath } from '@/lib/hosting';
 
 function SectionEyebrow({ children }: { readonly children: React.ReactNode }) {
   return (
@@ -12,7 +13,7 @@ function SectionEyebrow({ children }: { readonly children: React.ReactNode }) {
 export function AutomationQaExperience() {
   const t = useTranslations('AutomationQa');
   const locale = useLocale();
-  const workHref = `/${locale}#work`;
+  const workHref = withBasePath(`/${locale}/#work`);
 
   const loopSteps = [
     t('loop.steps.understand'),

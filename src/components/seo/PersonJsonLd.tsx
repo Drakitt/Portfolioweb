@@ -1,8 +1,8 @@
 import { siteLinks } from '@/content/data/site';
-import { getSiteUrl } from '@/lib/site-url';
+import { joinSiteUrl } from '@/lib/site-url';
 
 export function PersonJsonLd() {
-  const siteUrl = getSiteUrl();
+  const siteUrl = joinSiteUrl('/');
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -16,7 +16,7 @@ export function PersonJsonLd() {
     },
     sameAs: [siteLinks.github, siteLinks.linkedin],
     email: siteLinks.email,
-    ...(siteUrl ? { url: siteUrl.toString() } : {}),
+    ...(siteUrl ? { url: siteUrl } : {}),
   };
 
   return (

@@ -3,6 +3,7 @@ import Image from 'next/image';
 import type { Locale, Project } from '@/types/content';
 import { localize } from '@/types/content';
 import { AutomationWorkflowVisual } from '@/components/work/automation-qa/AutomationWorkflowVisual';
+import { withBasePath } from '@/lib/hosting';
 
 type ProjectVisualProps = {
   readonly project: Project;
@@ -23,7 +24,7 @@ export function ProjectVisual({ project, locale }: ProjectVisualProps) {
   return (
     <div className="overflow-hidden border border-border bg-sage-light">
       <Image
-        src={project.image}
+        src={withBasePath(project.image)}
         alt={alt}
         width={1600}
         height={900}

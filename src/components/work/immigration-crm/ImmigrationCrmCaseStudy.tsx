@@ -6,6 +6,7 @@ import {
 } from '@/content/data/immigration-crm';
 import { EvidenceFrame } from '@/components/work/EvidenceFrame';
 import { ArrowDoodle } from '@/components/scrapbook/doodles';
+import { withBasePath } from '@/lib/hosting';
 
 function SectionEyebrow({ children }: { readonly children: React.ReactNode }) {
   return (
@@ -41,7 +42,7 @@ function PaperNote({
 export function ImmigrationCrmCaseStudy() {
   const t = useTranslations('ImmigrationCrm');
   const locale = useLocale();
-  const workHref = `/${locale}#work`;
+  const workHref = withBasePath(`/${locale}/#work`);
 
   const sources = [
     t('startingPoint.sources.excel'),

@@ -3,6 +3,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { dentalSysScreenshots } from '@/content/data/dentalsys';
 import { EvidenceFrame } from '@/components/work/EvidenceFrame';
 import { DentalSysArchitecture } from './DentalSysArchitecture';
+import { withBasePath } from '@/lib/hosting';
 
 function SectionEyebrow({ children }: { readonly children: React.ReactNode }) {
   return (
@@ -29,7 +30,7 @@ function PaperNote({
 export function DentalSysCaseStudy() {
   const t = useTranslations('DentalSys');
   const locale = useLocale();
-  const workHref = `/${locale}#work`;
+  const workHref = withBasePath(`/${locale}/#work`);
 
   const modules = [
     t('system.modules.patients'),

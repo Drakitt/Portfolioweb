@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type { AppLocale } from '@/i18n/routing';
-import { getSiteUrl } from '@/lib/site-url';
+import { withBasePath } from '@/lib/hosting';
+import { getSiteUrl, joinSiteUrl } from '@/lib/site-url';
 
 const OG_LOCALE: Record<AppLocale, string> = {
   en: 'en_US',
@@ -8,23 +9,23 @@ const OG_LOCALE: Record<AppLocale, string> = {
 };
 
 export const homePathnames = {
-  en: '/en',
-  es: '/es',
+  en: '/en/',
+  es: '/es/',
 } as const;
 
 export const immigrationCrmPathnames = {
-  en: '/en/work/immigration-crm',
-  es: '/es/work/immigration-crm',
+  en: '/en/work/immigration-crm/',
+  es: '/es/work/immigration-crm/',
 } as const;
 
 export const dentalSysPathnames = {
-  en: '/en/work/dentalsys',
-  es: '/es/work/dentalsys',
+  en: '/en/work/dentalsys/',
+  es: '/es/work/dentalsys/',
 } as const;
 
 export const automationQaPathnames = {
-  en: '/en/work/automation-qa',
-  es: '/es/work/automation-qa',
+  en: '/en/work/automation-qa/',
+  es: '/es/work/automation-qa/',
 } as const;
 
 export const portfolioOgImage = {
@@ -40,6 +41,10 @@ export const immigrationCrmOgImage = {
   height: 630,
   alt: 'Immigration CRM case study — Raquel Terrazas',
 } as const;
+
+function publicHref(pathname: string): string {
+  return joinSiteUrl(pathname) ?? withBasePath(pathname);
+}
 
 export function buildPageMetadata({
   locale,
@@ -59,18 +64,21 @@ export function buildPageMetadata({
   image?: { url: string; width: number; height: number; alt: string };
 }): Metadata {
   const siteUrl = getSiteUrl();
+  const metadataBaseUrl = joinSiteUrl('/');
   const otherLocale: AppLocale = locale === 'en' ? 'es' : 'en';
+  const canonical = publicHref(pathname);
+  const imageUrl = publicHref(image.url);
 
   return {
     title,
     description,
-    ...(siteUrl ? { metadataBase: siteUrl } : {}),
+    ...(metadataBaseUrl ? { metadataBase: new URL(metadataBaseUrl) } : {}),
     alternates: {
-      canonical: pathname,
+      canonical,
       languages: {
-        en: alternatePathnames.en,
-        es: alternatePathnames.es,
-        'x-default': alternatePathnames.en,
+        en: publicHref(alternatePathnames.en),
+        es: publicHref(alternatePathnames.es),
+        'x-default': publicHref(alternatePathnames.en),
       },
     },
     openGraph: {
@@ -80,14 +88,14 @@ export function buildPageMetadata({
       description,
       locale: OG_LOCALE[locale],
       alternateLocale: [OG_LOCALE[otherLocale]],
-      images: [image],
-      ...(siteUrl ? { url: new URL(pathname, siteUrl).toString() } : {}),
+      images: [{ ...image, url: imageUrl }],
+      ...(siteUrl ? { url: publicHref(pathname) } : {}),
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: [image.url],
+      images: [imageUrl],
     },
   };
 }
