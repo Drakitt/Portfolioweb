@@ -53,22 +53,22 @@
       "automation": "Automatización"
     }
   },
-  "ImmigrationCrm": {
+  "CrmProject": {
     "meta": {
-      "title": "Caso de estudio CRM de Extranjería | Raquel Terrazas",
+      "title": "Caso de estudio CRM | Raquel Terrazas",
       "description": "Caso de estudio de un CRM real que transforma procesos administrativos dispersos en un sistema de software conectado."
     },
     "backToWork": "Volver a proyectos destacados",
     "hero": {
       "eyebrow": "03 / CASO DE ESTUDIO",
-      "label": "CRM DE EXTRANJERÍA · PROYECTO REAL",
+      "label": "CRM · PROYECTO REAL",
       "headline1": "De herramientas dispersas",
       "headline2": "a un espacio de trabajo",
       "headline3": "centralizado.",
       "body": "Un CRM diseñado alrededor del flujo de trabajo real de una gestoría de extranjería, conectando información de clientes, trámites, documentos, presupuestos y facturación.",
       "annotation": "software real →",
       "datasetNote": "Las capturas utilizan un conjunto de datos sintéticos y aislados.",
-      "dashboardAlt": "Panel de control del CRM de extranjería con clientes recientes y alertas de documentos, a partir de un conjunto de datos sintéticos."
+      "dashboardAlt": "Panel de control del CRM con clientes recientes y alertas de documentos, a partir de un conjunto de datos sintéticos."
     },
     "startingPoint": {
       "eyebrow": "01 / EL PUNTO DE PARTIDA",
@@ -108,7 +108,7 @@
         "invoices": "Facturas"
       },
       "profileAlt": "Perfil de cliente de demostración, con un trámite de renovación de residencia, documentos y acciones de presupuesto.",
-      "clientsAlt": "Listado de clientes del CRM de extranjería con datos sintéticos."
+      "clientsAlt": "Listado de clientes del CRM con datos sintéticos."
     },
     "product": {
       "eyebrow": "04 / DECISIÓN DE PRODUCTO",
@@ -146,8 +146,8 @@
         "quotes": "presupuestos",
         "invoices": "facturas"
       },
-      "clientsAlt": "Tabla de clientes del CRM de extranjería, con registros sintéticos de demostración.",
-      "invoicesAlt": "Listado de facturas del CRM de extranjería, con facturas y estados sintéticos."
+      "clientsAlt": "Tabla de clientes del CRM, con registros sintéticos de demostración.",
+      "invoicesAlt": "Listado de facturas del CRM, con facturas y estados sintéticos."
     },
     "realWorld": {
       "eyebrow": "07 / USO REAL",

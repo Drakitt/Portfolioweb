@@ -3,8 +3,8 @@ const base = 'http://localhost:3000';
 const pages = [
   '/es',
   '/en',
-  '/es/work/immigration-crm',
-  '/en/work/immigration-crm',
+  '/es/work/crm-project',
+  '/en/work/crm-project',
 ];
 
 const bad = [

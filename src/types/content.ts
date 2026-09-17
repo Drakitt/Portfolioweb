@@ -10,7 +10,7 @@ export type ProjectCategory =
   | 'professional-services'
   | 'automation';
 
-export type ProjectSlug = 'dentalsys' | 'immigration-crm' | 'automation-qa';
+export type ProjectSlug = 'dentalsys' | 'crm-project' | 'automation-qa';
 
 export interface Project {
   id: string;
@@ -27,7 +27,7 @@ export interface Project {
   annotation: LocalizedString;
   featured: boolean;
   confidential: boolean;
-  caseStudyHref: '/work/immigration-crm' | '/work/dentalsys' | '/work/automation-qa' | null;
+  caseStudyHref: '/work/crm-project' | '/work/dentalsys' | '/work/automation-qa' | null;
 }
 
 export function localize(value: LocalizedString, locale: Locale): string {

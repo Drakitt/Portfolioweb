@@ -1,9 +1,9 @@
 import React from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import {
-  immigrationCrmScreenshots,
-  immigrationCrmTechCallouts,
-} from '@/content/data/immigration-crm';
+  crmProjectScreenshots,
+  crmProjectTechCallouts,
+} from '@/content/data/crm-project';
 import { EvidenceFrame } from '@/components/work/EvidenceFrame';
 import { ArrowDoodle } from '@/components/scrapbook/doodles';
 import { withBasePath } from '@/lib/hosting';
@@ -39,8 +39,8 @@ function PaperNote({
   );
 }
 
-export function ImmigrationCrmCaseStudy() {
-  const t = useTranslations('ImmigrationCrm');
+export function CrmProjectCaseStudy() {
+  const t = useTranslations('CrmProject');
   const locale = useLocale();
   const workHref = withBasePath(`/${locale}/#work`);
 
@@ -112,7 +112,7 @@ export function ImmigrationCrmCaseStudy() {
         </div>
         <div className="lg:-rotate-[1.2deg]">
           <EvidenceFrame
-            src={immigrationCrmScreenshots.dashboard}
+            src={crmProjectScreenshots.dashboard}
             alt={t('hero.dashboardAlt')}
             tapeTone="sage"
             annotation={t('hero.annotation')}
@@ -217,7 +217,7 @@ export function ImmigrationCrmCaseStudy() {
           <div className="relative lg:col-span-8 lg:min-h-[32rem]">
             <div className="hidden w-[62%] lg:block lg:-rotate-[1.4deg] lg:opacity-70">
               <EvidenceFrame
-                src={immigrationCrmScreenshots.clients}
+                src={crmProjectScreenshots.clients}
                 alt={t('modeling.clientsAlt')}
                 tapeTone="butter"
                 sizes="(min-width: 1024px) 30vw, 100vw"
@@ -225,7 +225,7 @@ export function ImmigrationCrmCaseStudy() {
             </div>
             <div className="lg:absolute lg:right-0 lg:top-10 lg:w-[78%] lg:rotate-[1.3deg]">
               <EvidenceFrame
-                src={immigrationCrmScreenshots.clientProfile}
+                src={crmProjectScreenshots.clientProfile}
                 alt={t('modeling.profileAlt')}
                 tapeTone="pink"
                 sizes="(min-width: 1024px) 42vw, 100vw"
@@ -254,7 +254,7 @@ export function ImmigrationCrmCaseStudy() {
         </ol>
         <div className="mt-8 lg:rotate-[0.8deg]">
           <EvidenceFrame
-            src={immigrationCrmScreenshots.quotationWhatsapp}
+            src={crmProjectScreenshots.quotationWhatsapp}
             alt={t('product.quoteAlt')}
             tapeTone="sage"
             sizes="(min-width: 1024px) 70vw, 100vw"
@@ -306,7 +306,7 @@ export function ImmigrationCrmCaseStudy() {
           </div>
         </div>
         <ul className="mt-10 flex flex-wrap gap-3">
-          {immigrationCrmTechCallouts.map((item) => (
+          {crmProjectTechCallouts.map((item) => (
             <li key={item}>
               <PaperNote>{item}</PaperNote>
             </li>
@@ -327,7 +327,7 @@ export function ImmigrationCrmCaseStudy() {
         <div className="crm-ops-board mt-8">
           <div className="crm-ops-board__clients">
             <EvidenceFrame
-              src={immigrationCrmScreenshots.clients}
+              src={crmProjectScreenshots.clients}
               alt={t('operations.clientsAlt')}
               tapeTone="butter"
               sizes="(min-width: 1024px) 48vw, 100vw"
@@ -335,7 +335,7 @@ export function ImmigrationCrmCaseStudy() {
           </div>
           <div className="crm-ops-board__invoices">
             <EvidenceFrame
-              src={immigrationCrmScreenshots.invoices}
+              src={crmProjectScreenshots.invoices}
               alt={t('operations.invoicesAlt')}
               tapeTone="pink"
               sizes="(min-width: 1024px) 42vw, 100vw"

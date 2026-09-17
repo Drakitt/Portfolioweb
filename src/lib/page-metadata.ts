@@ -13,9 +13,9 @@ export const homePathnames = {
   es: '/es/',
 } as const;
 
-export const immigrationCrmPathnames = {
-  en: '/en/work/immigration-crm/',
-  es: '/es/work/immigration-crm/',
+export const crmProjectPathnames = {
+  en: '/en/work/crm-project/',
+  es: '/es/work/crm-project/',
 } as const;
 
 export const dentalSysPathnames = {
@@ -35,11 +35,11 @@ export const portfolioOgImage = {
   alt: 'Raquel Terrazas, Software Engineer, Barcelona',
 } as const;
 
-export const immigrationCrmOgImage = {
-  url: '/og/immigration-crm.png',
+export const crmProjectOgImage = {
+  url: '/og/crm-project.png',
   width: 1200,
   height: 630,
-  alt: 'Immigration CRM case study — Raquel Terrazas',
+  alt: 'CRM case study — Raquel Terrazas',
 } as const;
 
 function publicHref(pathname: string): string {

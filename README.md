@@ -8,9 +8,9 @@ This repository contains the portfolio site: pages, copy, and public presentatio
 
 Three case studies are linked from the home page (`/en#work`, `/es#work`) and have dedicated routes under `/work`.
 
-### Immigration CRM
+### CRM
 
-`/en/work/immigration-crm` · `/es/work/immigration-crm`
+`/en/work/crm-project` · `/es/work/crm-project`
 
 Business-process digitization: moving from scattered operational tools to a centralized workspace for client information, procedures, documents, and follow-up.
 

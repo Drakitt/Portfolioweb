@@ -46,13 +46,13 @@ export const projects: readonly Project[] = [
     caseStudyHref: '/work/dentalsys',
   },
   {
-    id: 'immigration-crm',
-    slug: 'immigration-crm',
+    id: 'crm-project',
+    slug: 'crm-project',
     serial: '02',
     category: 'professional-services',
     title: {
-      en: 'Immigration CRM',
-      es: 'Immigration CRM',
+      en: 'CRM',
+      es: 'CRM',
     },
     summary: {
       en: 'From scattered administrative processes to an organized digital workflow.',
@@ -67,10 +67,10 @@ export const projects: readonly Project[] = [
       es: 'Clientes · Trámites · Documentos · Recordatorios · Facturación',
     },
     technologies: ['Next.js', 'React', 'TypeScript', 'PostgreSQL', 'Prisma'],
-    image: '/projects/immigration-crm/dashboard.png',
+    image: '/projects/crm-project/dashboard.png',
     imageAlt: {
-      en: 'Immigration CRM dashboard from an isolated synthetic demo dataset.',
-      es: 'Panel de control del CRM de extranjería con un conjunto de datos sintéticos y aislados.',
+      en: 'CRM dashboard from an isolated synthetic demo dataset.',
+      es: 'Panel de control del CRM con un conjunto de datos sintéticos y aislados.',
     },
     annotation: {
       en: 'documents → deadlines → actions',
@@ -78,7 +78,7 @@ export const projects: readonly Project[] = [
     },
     featured: true,
     confidential: false,
-    caseStudyHref: '/work/immigration-crm',
+    caseStudyHref: '/work/crm-project',
   },
   {
     id: 'automation-qa',

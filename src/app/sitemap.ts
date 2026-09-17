@@ -3,7 +3,7 @@ import {
   automationQaPathnames,
   dentalSysPathnames,
   homePathnames,
-  immigrationCrmPathnames,
+  crmProjectPathnames,
 } from '@/lib/page-metadata';
 import { joinSiteUrl } from '@/lib/site-url';
 
@@ -12,8 +12,8 @@ export const dynamic = 'force-static';
 const publicPaths = [
   homePathnames.en,
   homePathnames.es,
-  immigrationCrmPathnames.en,
-  immigrationCrmPathnames.es,
+  crmProjectPathnames.en,
+  crmProjectPathnames.es,
   dentalSysPathnames.en,
   dentalSysPathnames.es,
   automationQaPathnames.en,

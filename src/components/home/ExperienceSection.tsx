@@ -65,7 +65,7 @@ export function ExperienceSection() {
                 {t('consulting.body')}
               </p>
               <Link
-                href="/work/immigration-crm"
+                href="/work/crm-project"
                 className="mt-5 inline-flex min-h-touch items-center font-mono text-xs text-foreground underline decoration-foreground/35 underline-offset-4 hover:text-forest hover:decoration-forest"
               >
                 {t('consulting.caseStudy')}

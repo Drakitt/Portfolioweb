@@ -10,7 +10,7 @@ type TapeTone = 'sage' | 'butter' | 'pink';
 
 const tapeBySlug: Record<Project['slug'], TapeTone> = {
   dentalsys: 'sage',
-  'immigration-crm': 'butter',
+  'crm-project': 'butter',
   'automation-qa': 'pink',
 };
 

@@ -53,22 +53,22 @@
       "automation": "Automation"
     }
   },
-  "ImmigrationCrm": {
+  "CrmProject": {
     "meta": {
-      "title": "Immigration CRM Case Study | Raquel Terrazas",
+      "title": "CRM Case Study | Raquel Terrazas",
       "description": "A real-world CRM case study showing how fragmented administrative workflows were modeled and turned into a connected software system."
     },
     "backToWork": "Back to featured work",
     "hero": {
       "eyebrow": "03 / CASE STUDY",
-      "label": "IMMIGRATION CRM · REAL-WORLD PROJECT",
+      "label": "CRM · REAL-WORLD PROJECT",
       "headline1": "From scattered tools",
       "headline2": "to one operational",
       "headline3": "workspace.",
       "body": "A CRM designed around the real workflow of an immigration services business — connecting client information, procedures, documents, quotations and invoicing.",
       "annotation": "real software →",
       "datasetNote": "Screenshots use an isolated synthetic dataset.",
-      "dashboardAlt": "Immigration CRM dashboard showing a control panel, recent clients and document alerts from a synthetic demo dataset."
+      "dashboardAlt": "CRM dashboard showing a control panel, recent clients and document alerts from a synthetic demo dataset."
     },
     "startingPoint": {
       "eyebrow": "01 / THE STARTING POINT",
@@ -108,7 +108,7 @@
         "invoices": "Invoices"
       },
       "profileAlt": "Client profile for a synthetic demo record, with a residence-renewal procedure, documents and quotation actions.",
-      "clientsAlt": "Clients list from the Immigration CRM demo dataset."
+      "clientsAlt": "Clients list from the CRM demo dataset."
     },
     "product": {
       "eyebrow": "04 / PRODUCT DECISION",
@@ -146,8 +146,8 @@
         "quotes": "quotes",
         "invoices": "invoices"
       },
-      "clientsAlt": "Clients table from the Immigration CRM, showing synthetic demo records.",
-      "invoicesAlt": "Invoices list from the Immigration CRM, showing synthetic demo invoices and statuses."
+      "clientsAlt": "Clients table from the CRM, showing synthetic demo records.",
+      "invoicesAlt": "Invoices list from the CRM, showing synthetic demo invoices and statuses."
     },
     "realWorld": {
       "eyebrow": "07 / REAL-WORLD USE",

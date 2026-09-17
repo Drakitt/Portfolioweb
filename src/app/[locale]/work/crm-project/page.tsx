@@ -4,11 +4,11 @@ import { notFound } from 'next/navigation';
 import { isAppLocale } from '@/i18n/routing';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
-import { ImmigrationCrmCaseStudy } from '@/components/work/immigration-crm/ImmigrationCrmCaseStudy';
+import { CrmProjectCaseStudy } from '@/components/work/crm-project/CrmProjectCaseStudy';
 import {
   buildPageMetadata,
-  immigrationCrmOgImage,
-  immigrationCrmPathnames,
+  crmProjectOgImage,
+  crmProjectPathnames,
 } from '@/lib/page-metadata';
 
 export async function generateMetadata({
@@ -21,20 +21,20 @@ export async function generateMetadata({
     return {};
   }
 
-  const t = await getTranslations({ locale, namespace: 'ImmigrationCrm.meta' });
+  const t = await getTranslations({ locale, namespace: 'CrmProject.meta' });
 
   return buildPageMetadata({
     locale,
     title: t('title'),
     description: t('description'),
-    pathname: immigrationCrmPathnames[locale],
-    alternatePathnames: immigrationCrmPathnames,
+    pathname: crmProjectPathnames[locale],
+    alternatePathnames: crmProjectPathnames,
     type: 'article',
-    image: immigrationCrmOgImage,
+    image: crmProjectOgImage,
   });
 }
 
-export default async function ImmigrationCrmPage({
+export default async function CrmProjectPage({
   params,
 }: {
   readonly params: Promise<{ locale: string }>;
@@ -51,7 +51,7 @@ export default async function ImmigrationCrmPage({
     <div className="flex min-h-screen flex-col justify-between selection:bg-accent selection:text-on-accent">
       <Header />
       <main id="main-content" className="flex-grow">
-        <ImmigrationCrmCaseStudy />
+        <CrmProjectCaseStudy />
       </main>
       <Footer />
     </div>
